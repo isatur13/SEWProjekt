@@ -1,23 +1,32 @@
 fileFormatVersion: 2
-guid: ed9cb0e21cc14a346b0430bcec16f4f5
-timeCreated: 1527604081
+guid: 3a37b2fbeb2f3d547a7179f4ca6a5e7d
+timeCreated: 1527605662
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: character_idle_0
-    21300002: character_idle_1
-    21300004: character_idle_2
-    21300006: character_idle_3
-    21300008: character_idle_4
-    21300010: character_idle_5
-    21300012: character_idle_6
-    21300014: character_idle_7
-    21300016: character_idle_8
-    21300018: character_idle_9
-    21300020: character_idle_10
-    21300022: character_idle_11
-    21300024: character_idle_12
-    21300026: character_idle_13
+    21300000: character_walk_0
+    21300002: character_walk_1
+    21300004: character_walk_2
+    21300006: character_walk_3
+    21300008: character_walk_4
+    21300010: character_walk_5
+    21300012: character_walk_6
+    21300014: character_walk_7
+    21300016: character_walk_8
+    21300018: character_walk_9
+    21300020: character_walk_10
+    21300022: character_walk_11
+    21300024: character_walk_12
+    21300026: character_walk_13
+    21300028: character_walk_14
+    21300030: character_walk_15
+    21300032: character_walk_16
+    21300034: character_walk_17
+    21300036: character_walk_18
+    21300038: character_walk_19
+    21300040: character_walk_20
+    21300042: character_walk_21
+    21300044: character_walk_22
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -124,12 +133,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: character_idle_0
+      name: character_walk_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 196
-        width: 60
+        y: 452
+        width: 56
         height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -138,12 +147,12 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_idle_1
+      name: character_walk_1
       rect:
         serializedVersion: 2
-        x: 60
-        y: 196
-        width: 60
+        x: 55
+        y: 452
+        width: 55
         height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -152,40 +161,26 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_idle_2
+      name: character_walk_2
       rect:
         serializedVersion: 2
-        x: 120
-        y: 196
-        width: 60
+        x: 110
+        y: 452
+        width: 58
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_idle_3
+      name: character_walk_3
       rect:
         serializedVersion: 2
-        x: 180
-        y: 196
-        width: 60
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: character_idle_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 139
-        width: 60
+        x: 55
+        y: 395
+        width: 56
         height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -194,40 +189,12 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_idle_5
+      name: character_walk_4
       rect:
         serializedVersion: 2
-        x: 60
-        y: 139
-        width: 60
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: character_idle_6
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 140
-        width: 60
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: character_idle_7
-      rect:
-        serializedVersion: 2
-        x: 180
-        y: 138
-        width: 60
+        x: 111
+        y: 394
+        width: 57
         height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -236,40 +203,26 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_idle_8
+      name: character_walk_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 453
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_walk_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 81
-        width: 60
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: character_idle_9
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 82
-        width: 60
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: character_idle_10
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 81
-        width: 60
+        y: 337
+        width: 56
         height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -278,13 +231,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_idle_11
+      name: character_walk_7
       rect:
         serializedVersion: 2
-        x: 180
-        y: 82
-        width: 60
-        height: 55
+        x: 57
+        y: 335
+        width: 55
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,13 +245,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_idle_12
+      name: character_walk_8
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 336
+        width: 58
+        height: 57
+      alignment: 9
+      pivot: {x: 0.50000054, y: 0.51729757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_walk_9
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 335
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_walk_10
       rect:
         serializedVersion: 2
         x: 0
-        y: 25
-        width: 60
-        height: 55
+        y: 276
+        width: 56
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,13 +287,167 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: character_idle_13
+      name: character_walk_11
       rect:
         serializedVersion: 2
-        x: 60
-        y: 25
-        width: 60
-        height: 55
+        x: 57
+        y: 277
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_walk_12
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 276
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_walk_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 276
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_walk_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 217
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_walk_15
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 217
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_walk_16
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 217
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_walk_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 394
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_walk_18
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 393
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_walk_19
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 217
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_walk_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_walk_21
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 159
+        width: 53
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_walk_22
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 158
+        width: 57
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -12,16 +12,17 @@ public class NewPlayerController : MonoBehaviour {
     float groundRadius = 0.5f;
     public LayerMask ground;
     public float jumpForce = 7000f;
+    Animator anim;
+    float move;
 
 	void Start () {
 		rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 	
 	void FixedUpdate () {
 
         if (!grounded) return;
-        float move = Input.GetAxis("Horizontal");
-
         rb.velocity = new Vector2(move * maxSpeed, rb.velocity.y);    
 
         if(move>0 && !facingRight)
@@ -35,6 +36,15 @@ public class NewPlayerController : MonoBehaviour {
     }
     void Update()
     {
+        move = Input.GetAxis("Horizontal");
+        if (move != 0)
+        {
+            anim.SetBool("isWalking", true);
+        }
+        if (move == 0)
+        {
+            anim.SetBool("isWalking", false);
+        }
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, ground);
         if (grounded && Input.GetKeyDown(KeyCode.Space))
         {
