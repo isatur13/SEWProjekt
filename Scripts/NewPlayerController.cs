@@ -21,7 +21,6 @@ public class NewPlayerController : MonoBehaviour {
     }
 	
 	void FixedUpdate () {
-
         if (!grounded) return;
         rb.velocity = new Vector2(move * maxSpeed, rb.velocity.y);    
 
@@ -36,6 +35,7 @@ public class NewPlayerController : MonoBehaviour {
     }
     void Update()
     {
+        anim.SetFloat("vSpeed", rb.velocity.y);
         move = Input.GetAxis("Horizontal");
         if (move != 0)
         {
@@ -46,7 +46,8 @@ public class NewPlayerController : MonoBehaviour {
             anim.SetBool("isWalking", false);
         }
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, ground);
-        if (grounded && Input.GetKeyDown(KeyCode.Space))
+        anim.SetBool("isGrounded", grounded);
+        if (grounded && Input.GetKeyDown(KeyCode.W))
         {
             rb.AddForce(new Vector2(0, jumpForce));
         }
