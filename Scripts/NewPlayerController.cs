@@ -35,7 +35,6 @@ public class NewPlayerController : MonoBehaviour {
     }
     void Update()
     {
-        anim.SetFloat("vSpeed", rb.velocity.y);
         move = Input.GetAxis("Horizontal");
         if (move != 0)
         {
